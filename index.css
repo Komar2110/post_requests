@@ -1,0 +1,23 @@
+* {
+    font-size: 18px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 200px;
+    height: 200px;
+}
+
+.photo-container__item {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; justify-content: space-around;
+}
